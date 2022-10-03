@@ -59,18 +59,22 @@
 	list-style-type: none;
 	text-decoration: none; 
 	color: rgb(70, 68, 68);
-	font-size: 18px;
+	
 	vertical-align: middle;
-	font-weight: 400;
-	font-family: 'Barlow',sans-serif;
+	
 	
 }
-.menu > li > a{
+.menu > li > button{
 	text-decoration: none;
 	color: black;
 	text-transform: uppercase;
+	background: transparent;
+	border: none;
+	font-weight: 400;
+	font-family: 'Barlow',sans-serif;
+	font-size: 17px;
 }
-.menu > li > a:hover{
+.menu > li > button:hover{
 	color: rgb(255, 255, 255);
 	transition: all 0.35s;
 }
