@@ -9,7 +9,8 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
 .wrapper {
-	 
+	width:100%;
+    	min-width:100%;
 }
 .header {
 	background: url(../img/sovremennaya-vysotka-s-panoramnymi-oknami.jpg) no-repeat;
