@@ -9,11 +9,12 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
 body {
-	width:100%;
-	min-width:100%;
+	
 }
 .wrapper {
-	min-width: 650px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
     	
 }
 .header {
