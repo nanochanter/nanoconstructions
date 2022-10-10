@@ -13,7 +13,7 @@ body {
 	min-width:100%;
 }
 .wrapper {
-	min-width: 600px;
+	min-width: 430px;
     	
 }
 .header {
@@ -753,4 +753,10 @@ body {
 		padding-bottom: 20px;
 		padding-top: 30px;
 	}	
+}
+@media (max-width: 650px)  {
+	.menu{
+		gap: 5px;
+		font-size: 15px;
+	}
 }
