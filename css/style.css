@@ -756,9 +756,4 @@ body {
 		padding-top: 30px;
 	}	
 }
-@media (max-width: 650px)  {
-	.menu{
-		gap: 5px;
-		font-size: 15px;
-	}
-}
+
