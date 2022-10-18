@@ -661,12 +661,12 @@ body {
 	border-radius: 10px;
 	padding-bottom: 60px;
 }
-.call__number {
-	padding-bottom: 20px;
+.call__address {
+	padding-bottom: 15px;
 }
 .call__message {
 	padding-bottom: 40px;
-	
+	padding-top: 15px;
 }
 .call__message textarea{
 	height: 120px;
@@ -700,6 +700,10 @@ body {
 	display: flex;
 	flex-direction: column;
 }
+.call_map{
+	
+	box-shadow: #979999  0px 0px 10px 0px;
+}
 .call__form  {
     border: 2px solid #d9d9d9;
     border-radius: 7px;
@@ -725,6 +729,10 @@ body {
     font: 400 14px Arial;
 	resize:none;   
 	 box-sizing: border-box;
+}
+#map {
+	width: 100%;
+	height: 95%;
 }
 @media (max-width: 900px)  {
 	.header-top__left_text{
@@ -754,6 +762,13 @@ body {
 	.specialization{
 		padding-bottom: 20px;
 		padding-top: 30px;
-	}	
+	}
+		
 }
-
+@media (max-width: 660px)  {
+	.menu{
+		gap: 5px;
+		font-size: 15px;
+	}
+	
+}
